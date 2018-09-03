@@ -1,0 +1,18 @@
+body
+{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#myTable tr td
+{
+    border: 1px solid black;
+}
+td
+{
+    padding:20px;
+    background-color:rgba(11,11,11,0.3);
+}
+td:hover
+{
+    background-color:rgba(11,11,11,0.5);
+}

@@ -1,0 +1,26 @@
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cell{
+    border: 2px solid #000;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.cell:hover{
+    background-color: #e3e3e3;
+}
+
+#gameWin, #gameOver{
+    display: none;
+}
