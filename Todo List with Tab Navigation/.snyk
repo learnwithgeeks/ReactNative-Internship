@@ -21,6 +21,8 @@ patch:
   'npm:extend:20180424':
     - react-native > metro-bundler > request > extend:
         patched: '2019-06-12T11:06:18.117Z'
+    - snyk > proxy-agent > pac-proxy-agent > get-uri > extend:
+        patched: '2019-06-12T11:07:10.123Z'
   'npm:hoek:20180212':
     - react-native > metro-bundler > request > hawk > cryptiles > boom > hoek:
         patched: '2019-06-12T11:06:18.117Z'
