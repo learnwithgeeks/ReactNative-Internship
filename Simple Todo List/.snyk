@@ -1,0 +1,87 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - react-native > connect > compression > debug:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > connect > connect-timeout > debug:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > connect > express-session > debug:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > connect > morgan > debug:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > connect > serve-index > debug:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > connect > serve-static > send > debug:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > connect > body-parser > debug:
+        patched: '2019-06-12T11:04:57.516Z'
+  'npm:extend:20180424':
+    - react-native > metro-bundler > request > extend:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > metro-bundler > jest-haste-map > sane > fsevents > node-pre-gyp > request > extend:
+        patched: '2019-06-12T11:04:57.516Z'
+  'npm:hoek:20180212':
+    - react-native > metro-bundler > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > metro-bundler > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > metro-bundler > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > metro-bundler > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > metro-bundler > jest-haste-map > sane > fsevents > node-pre-gyp > request > hawk > hoek:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > metro-bundler > jest-haste-map > sane > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > metro-bundler > jest-haste-map > sane > fsevents > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > metro-bundler > jest-haste-map > sane > fsevents > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > metro-bundler > jest-haste-map > sane > fsevents > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > metro-bundler > request > hawk > hoek:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > metro-bundler > request > hawk > boom > hoek:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > metro-bundler > request > hawk > sntp > hoek:
+        patched: '2019-06-12T11:04:57.516Z'
+  'npm:lodash:20180130':
+    - react-native > plist > xmlbuilder > lodash:
+        patched: '2019-06-12T11:04:57.516Z'
+  'npm:mime:20170907':
+    - react-native > connect > serve-static > send > mime:
+        patched: '2019-06-12T11:04:57.516Z'
+  'npm:ms:20170412':
+    - react-native > connect > connect-timeout > ms:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > connect > express-session > debug > ms:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > connect > compression > debug > ms:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > connect > serve-index > debug > ms:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > connect > morgan > debug > ms:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > connect > connect-timeout > debug > ms:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > connect > serve-static > send > ms:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > connect > serve-static > send > debug > ms:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > connect > serve-favicon > ms:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > connect > body-parser > debug > ms:
+        patched: '2019-06-12T11:04:57.516Z'
+  'npm:negotiator:20160616':
+    - react-native > connect > compression > accepts > negotiator:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > connect > serve-index > accepts > negotiator:
+        patched: '2019-06-12T11:04:57.516Z'
+  'npm:stringstream:20180511':
+    - react-native > metro-bundler > request > stringstream:
+        patched: '2019-06-12T11:04:57.516Z'
+    - react-native > metro-bundler > jest-haste-map > sane > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2019-06-12T11:04:57.516Z'
