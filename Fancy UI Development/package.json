@@ -21,10 +21,10 @@
     "preset": "jest-expo"
   },
   "dependencies": {
-    "expo": "^23.0.4",
+    "expo": "^28.0.0",
     "react": "16.0.0",
-    "react-native": "0.50.3",
-    "react-navigation": "^1.0.0-beta.23",
+    "react-native": "0.59.0",
+    "react-navigation": "^1.0.0",
     "snyk": "^1.176.0"
   },
   "snyk": true
