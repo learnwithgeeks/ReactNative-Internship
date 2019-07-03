@@ -13,7 +13,9 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
-    "test": "node node_modules/jest/bin/jest.js"
+    "test": "node node_modules/jest/bin/jest.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "jest": {
     "preset": "jest-expo"
@@ -21,7 +23,9 @@
   "dependencies": {
     "expo": "^25.0.0",
     "react": "16.2.0",
-    "react-native": "0.52.0",
-    "react-native-swiper": "^1.5.13"
-  }
+    "react-native": "0.60.0",
+    "react-native-swiper": "^1.5.13",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
