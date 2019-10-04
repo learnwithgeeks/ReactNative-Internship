@@ -67,3 +67,8 @@ patch:
   'npm:stringstream:20180511':
     - react-native > metro-bundler > request > stringstream:
         patched: '2019-06-12T11:06:18.117Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T05:00:20.091Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T05:00:20.091Z'
